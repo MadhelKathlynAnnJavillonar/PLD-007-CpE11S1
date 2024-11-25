@@ -1,0 +1,11 @@
+#include <iostream>
+#include <string>
+usingnamespace std;
+
+int main ()
+{
+  string str = "Hello, World!";
+  cout << "Length of string: "str.length()<<endl;
+  cout << "substring:" <<strsubstr(7,5)<<endl;
+return 0;
+}
