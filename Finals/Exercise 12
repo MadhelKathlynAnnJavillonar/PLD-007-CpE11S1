@@ -1,13 +1,14 @@
 Example 5
 
 #include <iostream>
-#include <string)
+#include <string>
 using namespace std;
 
-{
-  int main()
+
+
+  int main(){
   string str = "123";
   int num = stoi(str); // Convert string to integer
-  cout<<"Converted number:" « num «< endl;
+  cout<<"Converted number:"<< num << endl;
   return 0;
 }
